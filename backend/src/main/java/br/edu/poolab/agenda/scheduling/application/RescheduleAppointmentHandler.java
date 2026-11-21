@@ -7,7 +7,6 @@ import br.edu.poolab.agenda.scheduling.domain.repository.SlotRepository;
 import br.edu.poolab.agenda.shared.kernel.NotFoundException;
 import br.edu.poolab.agenda.shared.kernel.ValidationException;
 import java.time.Clock;
-import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

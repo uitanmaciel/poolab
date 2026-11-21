@@ -1,6 +1,5 @@
 package br.edu.poolab.agenda.identity.application;
 
-import br.edu.poolab.agenda.identity.application.AuthResult.StudentView;
 import br.edu.poolab.agenda.identity.application.port.PasswordHasher;
 import br.edu.poolab.agenda.identity.application.port.TokenIssuer;
 import br.edu.poolab.agenda.identity.domain.exception.InvalidEmailDomainException;
