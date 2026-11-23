@@ -18,7 +18,7 @@ Também é possível listar, cancelar e reagendar os próprios agendamentos.
 
 | Integrante | Curso |
 |---|---|
-| João Gabriel dos Santos Sena | BES |
+| João Gabriel dos Santos Sena | ADS |
 | Uitan Santos Maciel | ADS |
 
 ## Tecnologias e justificativas
@@ -39,7 +39,6 @@ Estrutura:
 ```
 backend/    API REST (Java/Spring) e docker-compose.yml
 frontend/   Interface (React/Vite)
-docs/       api.md (contrato da API) e prd.md
 ```
 
 ## Pré-requisitos e versões
@@ -90,7 +89,7 @@ Abra `http://localhost:5173`. O Vite encaminha as chamadas `/api` para a porta 8
 
 ## Credenciais fictícias e dados de teste
 
-- Conta de demonstração: `demo.aluna@ucsal.edu.br`. A senha é a que você definiu em `DEMO_PASSWORD` no `backend/.env`. Não há senha fixa no repositório.
+- Conta de demonstração: `demo.aluna@ucsal.edu.br`. A senha é a que você definiu em `DEMO_PASSWORD` no `backend/.env`. 
 - Com `VITE_DEMO_EMAIL` no `frontend/.env`, a tela de acesso mostra o botão de conta demo.
 - Também é possível criar uma conta nova na tela de acesso, com e-mail `@ucsal.edu.br` (só o formato é validado).
 - Dados de demonstração recriados a cada inicialização: 3 cursos (Administração, Engenharia, Direito), 4 profissionais (Prof. Rafael Cardoso, Profa. Marina Seixas, Profa. Tânia Lima, Prof. Heitor Mendes) e horários gerados automaticamente.
