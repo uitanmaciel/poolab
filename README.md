@@ -18,6 +18,7 @@ Também é possível listar, cancelar e reagendar os próprios agendamentos.
 
 | Integrante | Curso |
 |---|---|
+| Arthur Martins Mota Correia | ADS |
 | João Gabriel dos Santos Sena | ADS |
 | Uitan Santos Maciel | ADS |
 
